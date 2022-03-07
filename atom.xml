@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Alychee</title>
+  
+  <subtitle>御天葉</subtitle>
+  <link href="http://lycheecutest.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://lycheecutest.github.io/"/>
+  <updated>2022-03-07T02:02:41.791Z</updated>
+  <id>http://lycheecutest.github.io/</id>
+  
+  <author>
+    <name>御天葉</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MybatisPlus笔记</title>
+    <link href="http://lycheecutest.github.io/2022/03/04/MybatisPlus%E7%AC%94%E8%AE%B0/"/>
+    <id>http://lycheecutest.github.io/2022/03/04/MybatisPlus%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-03-04T06:15:42.000Z</published>
+    <updated>2022-03-07T02:02:41.791Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;前提：使用IDEA + Maven + Spring（Spring Boot）&lt;/p&gt;
+&lt;p&gt;导入依赖：&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-java&quot; data-language=&quot;java&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://lycheecutest.github.io/categories/Java/"/>
+    
+    
+    <category term="数据库" scheme="http://lycheecutest.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="Mybatis-plus" scheme="http://lycheecutest.github.io/tags/Mybatis-plus/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>力扣</title>
+    <link href="http://lycheecutest.github.io/2022/03/03/%E5%8A%9B%E6%89%A3/"/>
+    <id>http://lycheecutest.github.io/2022/03/03/%E5%8A%9B%E6%89%A3/</id>
+    <published>2022-03-03T07:25:47.000Z</published>
+    <updated>2022-03-04T02:57:50.988Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;判断字符串是否唯一&quot;&gt;&lt;a href=&quot;#判断字符串是否唯一&quot; class=&quot;headerlink&quot; title=&quot;判断字符串是否唯一&quot;&gt;&lt;/a&gt;判断字符串是否唯一&lt;/h3&gt;&lt;p&gt;实现一个算法，确定一个字符串 &lt;code&gt;s&lt;/code&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="面试" scheme="http://lycheecutest.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+    <category term="刷题" scheme="http://lycheecutest.github.io/tags/%E5%88%B7%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java基本数据类型</title>
+    <link href="http://lycheecutest.github.io/2022/03/03/Java%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+    <id>http://lycheecutest.github.io/2022/03/03/Java%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/</id>
+    <published>2022-03-03T06:03:18.000Z</published>
+    <updated>2022-03-03T06:47:00.557Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Java的两大数据类型&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;内置数据类型&lt;/li&gt;
+&lt;li&gt;引用数据类型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;内置数据类型&quot;&gt;&lt;a href=&quot;#内置数据类型&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://lycheecutest.github.io/categories/Java/"/>
+    
+    
+    <category term="JavaSE" scheme="http://lycheecutest.github.io/tags/JavaSE/"/>
+    
+    <category term="Java基础" scheme="http://lycheecutest.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java语法规范</title>
+    <link href="http://lycheecutest.github.io/2022/03/03/Java%E8%AF%AD%E6%B3%95%E8%A7%84%E8%8C%83/"/>
+    <id>http://lycheecutest.github.io/2022/03/03/Java%E8%AF%AD%E6%B3%95%E8%A7%84%E8%8C%83/</id>
+    <published>2022-03-03T02:00:56.000Z</published>
+    <updated>2022-03-03T06:01:48.971Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;基本语法&quot;&gt;&lt;a href=&quot;#基本语法&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://lycheecutest.github.io/categories/Java/"/>
+    
+    
+    <category term="JavaSE" scheme="http://lycheecutest.github.io/tags/JavaSE/"/>
+    
+    <category term="Java基础" scheme="http://lycheecutest.github.io/tags/Java%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>糖醋排骨</title>
+    <link href="http://lycheecutest.github.io/2022/03/02/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8/"/>
+    <id>http://lycheecutest.github.io/2022/03/02/%E7%B3%96%E9%86%8B%E6%8E%92%E9%AA%A8/</id>
+    <published>2022-03-02T05:59:42.000Z</published>
+    <updated>2022-03-02T08:49:02.859Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://gitee.com/Lycheecutest/imgs/raw/master/blog/food1.jpg&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="食谱" scheme="http://lycheecutest.github.io/categories/%E9%A3%9F%E8%B0%B1/"/>
+    
+    
+    <category term="糖醋" scheme="http://lycheecutest.github.io/tags/%E7%B3%96%E9%86%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo + Matery 搭建遇到的搜索不到的小问题</title>
+    <link href="http://lycheecutest.github.io/2022/03/02/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://lycheecutest.github.io/2022/03/02/Hexo%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-03-02T02:02:16.000Z</published>
+    <updated>2022-03-07T02:02:32.349Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h4&gt;&lt;p&gt;​    花费了几天时间用Hexo搭建了自己的博客，准备用来存放一些学习笔记、心得之类的</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://lycheecutest.github.io/categories/Hexo/"/>
+    
+    
+    <category term="前端" scheme="http://lycheecutest.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Hexo" scheme="http://lycheecutest.github.io/tags/Hexo/"/>
+    
+    <category term="Matery主题美化" scheme="http://lycheecutest.github.io/tags/Matery%E4%B8%BB%E9%A2%98%E7%BE%8E%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>thymeleaf</title>
+    <link href="http://lycheecutest.github.io/2022/03/01/thymeleaf/"/>
+    <id>http://lycheecutest.github.io/2022/03/01/thymeleaf/</id>
+    <published>2022-03-01T08:11:56.000Z</published>
+    <updated>2022-03-04T06:17:47.683Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;表达式&quot;&gt;&lt;a href=&quot;#表达式&quot; class=&quot;headerlink&quot; title=&quot;表达式&quot;&gt;&lt;/a&gt;表达式&lt;/h3&gt;&lt;h4 id=&quot;1-1-标准变量表达式&quot;&gt;&lt;a href=&quot;#1-1-标准变量表达式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="-前端" scheme="http://lycheecutest.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="thymeleaf" scheme="http://lycheecutest.github.io/tags/thymeleaf/"/>
+    
+  </entry>
+  
+</feed>
