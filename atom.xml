@@ -6,7 +6,7 @@
   <link href="http://lycheecutest.github.io/atom.xml" rel="self"/>
   
   <link href="http://lycheecutest.github.io/"/>
-  <updated>2022-03-07T02:02:41.791Z</updated>
+  <updated>2022-04-22T07:12:21.049Z</updated>
   <id>http://lycheecutest.github.io/</id>
   
   <author>
@@ -17,11 +17,157 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Redis-Learning</title>
+    <link href="http://lycheecutest.github.io/2022/04/22/Redis-Learning/"/>
+    <id>http://lycheecutest.github.io/2022/04/22/Redis-Learning/</id>
+    <published>2022-04-22T07:11:03.000Z</published>
+    <updated>2022-04-22T07:12:21.049Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>规范数据库设计</title>
+    <link href="http://lycheecutest.github.io/2022/04/22/%E8%A7%84%E8%8C%83%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://lycheecutest.github.io/2022/04/22/%E8%A7%84%E8%8C%83%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/</id>
+    <published>2022-04-22T06:32:57.000Z</published>
+    <updated>2022-04-22T07:12:21.054Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;良好的数据库设计&quot;&gt;&lt;a href=&quot;#良好的数据库设计&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://lycheecutest.github.io/categories/Java/"/>
+    
+    
+    <category term="数据库" scheme="http://lycheecutest.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="mysql" scheme="http://lycheecutest.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信小程序开发</title>
+    <link href="http://lycheecutest.github.io/2022/04/13/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/"/>
+    <id>http://lycheecutest.github.io/2022/04/13/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/</id>
+    <published>2022-04-13T01:12:26.000Z</published>
+    <updated>2022-04-22T07:12:21.051Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://gitee.com/Lycheecutest/raw/imgs/blog/202204130913457.png&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>MySql Learning</title>
+    <link href="http://lycheecutest.github.io/2022/04/03/MySql-Learning/"/>
+    <id>http://lycheecutest.github.io/2022/04/03/MySql-Learning/</id>
+    <published>2022-04-03T00:54:37.000Z</published>
+    <updated>2022-04-22T07:12:21.046Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;数据库相关概念&quot;&gt;&lt;a href=&quot;#数据库相关概念&quot; class=&quot;headerlink&quot; title=&quot;数据库相关概念&quot;&gt;&lt;/a&gt;数据库相关概念&lt;/h3&gt;&lt;p&gt;DB： database 数据库 存储数据的“仓库”。</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://lycheecutest.github.io/categories/Java/"/>
+    
+    
+    <category term="数据库" scheme="http://lycheecutest.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="mysql" scheme="http://lycheecutest.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java集合</title>
+    <link href="http://lycheecutest.github.io/2022/03/15/Java%E9%9B%86%E5%90%88/"/>
+    <id>http://lycheecutest.github.io/2022/03/15/Java%E9%9B%86%E5%90%88/</id>
+    <published>2022-03-15T06:22:12.000Z</published>
+    <updated>2022-04-22T07:12:21.044Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;ArrayList&quot;&gt;&lt;a href=&quot;#ArrayList&quot; class=&quot;headerlink&quot; title=&quot;ArrayList&quot;&gt;&lt;/a&gt;ArrayList&lt;/h3&gt;&lt;p&gt;arrayList集合的长度是可以随意变化的&lt;/p&gt;
+&lt;p&gt;对于Array</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://lycheecutest.github.io/categories/Java/"/>
+    
+    
+    <category term="JavaSE" scheme="http://lycheecutest.github.io/tags/JavaSE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java数组</title>
+    <link href="http://lycheecutest.github.io/2022/03/15/Java%E6%95%B0%E7%BB%84/"/>
+    <id>http://lycheecutest.github.io/2022/03/15/Java%E6%95%B0%E7%BB%84/</id>
+    <published>2022-03-15T01:46:32.000Z</published>
+    <updated>2022-04-22T07:12:21.040Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;特点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;是一种引用数据类型&lt;/li&gt;
+&lt;li&gt;数组当中的多个数据，类型必须统一&lt;/li&gt;
+&lt;li&gt;数组的长度在程序运行期间不可改变&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;数组的初始化：在内存当中创建一个数组，并且向其中赋予一些默认值&lt;/p&gt;
+&lt;p&gt;两种常见的</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://lycheecutest.github.io/categories/Java/"/>
+    
+    
+    <category term="JavaSE" scheme="http://lycheecutest.github.io/tags/JavaSE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>MybatisPlus笔记</title>
     <link href="http://lycheecutest.github.io/2022/03/04/MybatisPlus%E7%AC%94%E8%AE%B0/"/>
     <id>http://lycheecutest.github.io/2022/03/04/MybatisPlus%E7%AC%94%E8%AE%B0/</id>
     <published>2022-03-04T06:15:42.000Z</published>
-    <updated>2022-03-07T02:02:41.791Z</updated>
+    <updated>2022-04-05T04:05:15.493Z</updated>
     
     
       
@@ -50,7 +196,7 @@
     <link href="http://lycheecutest.github.io/2022/03/03/%E5%8A%9B%E6%89%A3/"/>
     <id>http://lycheecutest.github.io/2022/03/03/%E5%8A%9B%E6%89%A3/</id>
     <published>2022-03-03T07:25:47.000Z</published>
-    <updated>2022-03-04T02:57:50.988Z</updated>
+    <updated>2022-03-30T12:29:48.583Z</updated>
     
     
       

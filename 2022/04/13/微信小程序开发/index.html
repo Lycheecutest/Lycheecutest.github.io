@@ -4,8 +4,19 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="MybatisPlus笔记, java,Spring,SpringBoot,Mybatis,Mysql,Mybatis-plus">
-    <meta name="description" content="MybatisPlus的使用教程">
+    <meta name="keywords" content="微信小程序开发, java,Spring,SpringBoot,Mybatis,Mysql,Mybatis-plus">
+    <meta name="description" content="
+软件项目计划书
+项目进度报告
+项目开发总结报告
+需求规格说明书
+程序概要设计说明书
+详细设计说明书
+测试计划
+软件测试分析报告
+用户操作手册
+演示文件
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +28,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>MybatisPlus笔记 | Alychee</title>
+    <title>微信小程序开发 | Alychee</title>
     <link rel="icon" type="image/png" href="https://gitee.com/Lycheecutest/imgs/raw/master/blog/logo.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -236,12 +247,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">MybatisPlus笔记</h1>
+                    <h1 class="description center-align post-title">微信小程序开发</h1>
                 </div>
             </div>
         </div>
@@ -355,29 +366,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
-                                <span class="chip bg-color">数据库</span>
-                            </a>
-                        
-                            <a href="/tags/Mybatis-plus/">
-                                <span class="chip bg-color">Mybatis-plus</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/Java/" class="post-category">
-                                Java
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -386,7 +380,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-03-04
+                    2022-04-13
                 </div>
                 
 
@@ -395,7 +389,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    66
                 </div>
                 
 
@@ -420,213 +414,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>前提：使用IDEA + Maven + Spring（Spring Boot）</p>
-<p>导入依赖：</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">数据库驱动
-&lt;dependency&gt;
-    &lt;groupId&gt;mysql&lt;&#x2F;groupId&gt;
-    &lt;artifactId&gt;mysql-connector-java&lt;&#x2F;artifactId&gt;
-&lt;&#x2F;dependency&gt;
-&#x2F;**Lombok**&#x2F;
-&lt;dependency&gt;
-    &lt;groupId&gt;org.projectlombok&lt;&#x2F;groupId&gt;
-    &lt;artifactId&gt;lombok&lt;&#x2F;artifactId&gt;
-&lt;&#x2F;dependency&gt;
-&lt;dependency&gt;
-    &lt;groupId&gt;com.baomidou&lt;&#x2F;groupId&gt;
-    &lt;artifactId&gt;mybatis-plus-boot-starter&lt;&#x2F;artifactId&gt;
-    &lt;version&gt;3.0.5&lt;&#x2F;version&gt;
-&lt;&#x2F;dependency&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+                <p><img src="https://gitee.com/Lycheecutest/raw/imgs/blog/202204130913457.png" alt="image-20220413091254286"></p>
+<p>软件项目计划书</p>
+<p>项目进度报告</p>
+<p>项目开发总结报告</p>
+<p>需求规格说明书</p>
+<p>程序概要设计说明书</p>
+<p>详细设计说明书</p>
+<p>测试计划</p>
+<p>软件测试分析报告</p>
+<p>用户操作手册</p>
+<p>演示文件</p>
 
-
-
-<h4 id="配置日志"><a href="#配置日志" class="headerlink" title="配置日志"></a>配置日志</h4><p>使用MybatisPlus，所有的Sql语句是不可见的，想要看到Sql语句，必须配置日志。</p>
-<p>配置日志：在application.yml文件中</p>
-<pre class="line-numbers language-yml" data-language="yml"><code class="language-yml">mybatis-plus: 
-  configuration:
-  	log-impl: org.apache.ibatis.logging.stdout.StdOutImpl<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h4 id="CRUD扩展"><a href="#CRUD扩展" class="headerlink" title="CRUD扩展"></a>CRUD扩展</h4><p>基本的CRUD使用就是使用创建的Mapper对象，调用对应的方法即可</p>
-<h5 id="插入"><a href="#插入" class="headerlink" title="插入"></a>插入</h5><p>数据库插入的id的默认值为：全局的默认唯一值</p>
-<p>主键生成策略： 雪花算法</p>
-<pre class="line-numbers language-java@TableId" data-language="java@TableId"><code class="language-java@TableId">@TableId()
-&#x2F;**
-ID_WORKER  全局唯一id  默认值
-**&#x2F;
-IdType&#123;
-	AUTP(0),    &#x2F;&#x2F;数据库id自增
-	NONE(1),    &#x2F;&#x2F; 未设置
-	INPUT(2),   &#x2F;&#x2F; 手动输入
-	ID_WORKER(3),&#x2F;&#x2F;默认的全局唯一id
-	UUID(4),     &#x2F;&#x2F;全局唯一id uuid
-	ID_WORKER_STR(5); &#x2F;&#x2F;ID_WORKER 字符串表示法
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<blockquote>
-<p><strong>主键自增：</strong></p>
-</blockquote>
-<p>配置主键自增：</p>
-<ol>
-<li>实体类字段上 @TableId(type &#x3D; IdType.AUTO)</li>
-<li><strong>数据库字段一定要是自增！</strong></li>
-</ol>
-<h5 id="查询操作"><a href="#查询操作" class="headerlink" title="查询操作"></a>查询操作</h5><h6 id="条件查询"><a href="#条件查询" class="headerlink" title="条件查询"></a>条件查询</h6><pre class="line-numbers language-java" data-language="java"><code class="language-java">Map&lt;String,Object&gt; map &#x3D; new HashMap&lt;&gt;();
-map.put(&quot;列名&quot;,&quot;条件值&quot;)
-**Mapper.selectByMap(map);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h6 id="分页查询"><a href="#分页查询" class="headerlink" title="分页查询"></a>分页查询</h6><pre class="line-numbers language-java" data-language="java"><code class="language-java">&#x2F;&#x2F;分页插件 首先在自己的MybatisPlusConfig中配置分页对象
-
-@Bean
-public PaginationInterceptor paginationInterceptor()&#123;
-    return new PaginationInterceptor();
-&#125;
-
-&#x2F;&#x2F;测试
-
-Page&lt;&gt; page &#x3D; new Page&lt;&gt;(count: ,size: );
-Mapper.selectPage(page,null);
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-
-
-
-
-<h5 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h5><p>Mapper.updateById(参数是数据对象、不止是Id)</p>
-<p>所有Sql都是自动动态配置</p>
-<h6 id="自动填充"><a href="#自动填充" class="headerlink" title="自动填充"></a>自动填充</h6><p>创建时间、修改时间！这些个操作一般都是自动化完成的，不希望手动更新</p>
-<p>方式一：数据库级别（工作中不允许修改数据库）</p>
-<ol>
-<li>在表中新增字段 <code>create_time</code> 、<code>updatetime</code> </li>
-<li>再次测试，实体类同步属性</li>
-</ol>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">private Date createTime;
-private Date updateTime;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<p><strong>Ps:</strong> </p>
-<ol>
-<li><p>默认值：CURRENT_TIMESTAMP</p>
-</li>
-<li><p>更新操作，勾选更新</p>
-</li>
-</ol>
-<p>方式二：代码级别</p>
-<ol>
-<li>删除数据库的默认值、更新操作</li>
-<li>实体类字段属性上需要增加注解</li>
-</ol>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">@TableField(fill &#x3D; FieldFill.INSERT)  创建时间
-  private Date createTime;
-@TableField(fill &#x3D; FieldFill.INSERT_UPDATE)  更新时间
-  private Date updateTime;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<ol start="3">
-<li>编写处理器</li>
-</ol>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">@Slf4j
-@Component
-public class MyMetaObjectHandler implements MetaObjectHandler &#123;
-    @Override
-    public void insertFill(MetaObject metaObject) &#123;
-        log.info(&quot;start insert fill ....&quot;);
-        this.strictInsertFill(metaObject, &quot;createTime&quot;, LocalDateTime.class, LocalDateTime.now()); &#x2F;&#x2F; 起始版本 3.3.0(推荐使用)
-        &#x2F;&#x2F; 或者
-        this.strictInsertFill(metaObject, &quot;createTime&quot;, () -&gt; LocalDateTime.now(), LocalDateTime.class); &#x2F;&#x2F; 起始版本 3.3.3(推荐)
-    &#125;
-
-    @Override
-    public void updateFill(MetaObject metaObject) &#123;
-        log.info(&quot;start update fill ....&quot;);
-        this.strictUpdateFill(metaObject, &quot;updateTime&quot;, LocalDateTime.class, LocalDateTime.now()); &#x2F;&#x2F; 起始版本 3.3.0(推荐)
-        &#x2F;&#x2F; 或者
-        this.strictUpdateFill(metaObject, &quot;updateTime&quot;, () -&gt; LocalDateTime.now(), LocalDateTime.class); &#x2F;&#x2F; 起始版本 3.3.3(推荐)
-    &#125;
-&#125;
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<h5 id="条件构造器"><a href="#条件构造器" class="headerlink" title="条件构造器"></a>条件构造器</h5><pre class="line-numbers language-java" data-language="java"><code class="language-java">QuerWrapper&lt;&gt; wrapper &#x3D; new QueryWrapper&lt;&gt;();
-调用wrapper的方法添加条件<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-
-
-
-
-<h4 id="乐观锁"><a href="#乐观锁" class="headerlink" title="乐观锁"></a>乐观锁</h4><blockquote>
-<p>总是认为不会出现问题，无论做什么操作都不会自动上锁。如果出现了问题，再次更新值测试。</p>
-<blockquote>
-<p>乐观锁实现方式：</p>
-<ul>
-<li>取出记录时，获取当前 version</li>
-<li>更新时，带上这个 version</li>
-<li>执行更新时， set version &#x3D; newVersion where version &#x3D; oldVersion</li>
-<li>如果 version 不对，就更新失败</li>
-</ul>
-</blockquote>
-</blockquote>
-<ol>
-<li>数据库和实体类添加Version字段</li>
-<li>实体类字段添加@version注解</li>
-<li>增加一个<code>Mybatisplus</code>配置类</li>
-</ol>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">@Bean
-public MybatisPlusInterceptor mybatisPlusInterceptor() &#123;
-    MybatisPlusInterceptor interceptor &#x3D; new 	       MybatisPlusInterceptor();
-    interceptor.addInnerInterceptor(new OptimisticLockerInnerInterceptor());
-    return interceptor;
-&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-
-
-
-
-
-
-<h4 id="逻辑删除"><a href="#逻辑删除" class="headerlink" title="逻辑删除"></a>逻辑删除</h4><blockquote>
-<p>物理删除：直接从数据库中直接移除，删除所有的数据</p>
-<p>逻辑删除：在数据库中没有被删除，通过一个变量让他失效，deleted</p>
-</blockquote>
-<ol>
-<li>在数据表中增加一个deleted字段</li>
-<li>在实体类中同步对应属性并添加注解</li>
-</ol>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">@TableLogic
-private Integer deleted;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<ol start="3">
-<li>配置</li>
-</ol>
-<pre class="line-numbers language-yml" data-language="yml"><code class="language-yml">mybatis-plus:
-	global-config:
-		db-config:
-			logic-delete-value&#x3D;1
-			logic-not-delete-value&#x3D;0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<ol start="4">
-<li>使用，Mybatisplus会自动拼接查询条件delete &#x3D; 0</li>
-</ol>
-<h4 id="代码自动生成器"><a href="#代码自动生成器" class="headerlink" title="代码自动生成器"></a>代码自动生成器</h4><p>dao、pojo、service、controller自动生成</p>
-<pre class="line-numbers language-java" data-language="java"><code class="language-java">引入依赖
-    这是新版本 3.5.1以上的mybatis-plus才支持
-&lt;dependency&gt;
-    &lt;groupId&gt;com.baomidou&lt;&#x2F;groupId&gt;
-    &lt;artifactId&gt;mybatis-plus-generator&lt;&#x2F;artifactId&gt;
-    &lt;version&gt;3.5.2&lt;&#x2F;version&gt;
-&lt;&#x2F;dependency&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-
-
-<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
                 
             </div>
             <hr/>
@@ -652,7 +451,7 @@ private Integer deleted;<span aria-hidden="true" class="line-numbers-rows"><span
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://Lycheecutest.github.io/2022/03/04/MybatisPlus%E7%AC%94%E8%AE%B0/">http://Lycheecutest.github.io/2022/03/04/MybatisPlus%E7%AC%94%E8%AE%B0/</a>
+                    <a href="http://Lycheecutest.github.io/2022/04/13/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/">http://Lycheecutest.github.io/2022/04/13/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -689,15 +488,7 @@ private Integer deleted;<span aria-hidden="true" class="line-numbers-rows"><span
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
-                                    <span class="chip bg-color">数据库</span>
-                                </a>
-                            
-                                <a href="/tags/Mybatis-plus/">
-                                    <span class="chip bg-color">Mybatis-plus</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -1013,24 +804,24 @@ private Integer deleted;<span aria-hidden="true" class="line-numbers-rows"><span
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/03/15/Java%E6%95%B0%E7%BB%84/">
+                <a href="/2022/04/22/%E8%A7%84%E8%8C%83%E6%95%B0%E6%8D%AE%E5%BA%93%E8%AE%BE%E8%AE%A1/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Java数组">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="规范数据库设计">
                         
-                        <span class="card-title">Java数组</span>
+                        <span class="card-title">规范数据库设计</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            数组概念与使用
+                            
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-03-15
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-04-22
                         </span>
                         <span class="publish-author">
                             
@@ -1047,8 +838,12 @@ private Integer deleted;<span aria-hidden="true" class="line-numbers-rows"><span
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/JavaSE/">
-                        <span class="chip bg-color">JavaSE</span>
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                        <span class="chip bg-color">数据库</span>
+                    </a>
+                    
+                    <a href="/tags/mysql/">
+                        <span class="chip bg-color">mysql</span>
                     </a>
                     
                 </div>
@@ -1062,31 +857,31 @@ private Integer deleted;<span aria-hidden="true" class="line-numbers-rows"><span
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/03/03/%E5%8A%9B%E6%89%A3/">
+                <a href="/2022/04/03/MySql-Learning/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="力扣">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="MySql Learning">
                         
-                        <span class="card-title">力扣</span>
+                        <span class="card-title">MySql Learning</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            力扣上的一些题目的解法与思路
+                            
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-03-03
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-03
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E9%9D%A2%E8%AF%95/" class="post-category">
-                                    面试
+                            <a href="/categories/Java/" class="post-category">
+                                    Java
                                 </a>
                             
                             
@@ -1096,8 +891,12 @@ private Integer deleted;<span aria-hidden="true" class="line-numbers-rows"><span
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E5%88%B7%E9%A2%98/">
-                        <span class="chip bg-color">刷题</span>
+                    <a href="/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/">
+                        <span class="chip bg-color">数据库</span>
+                    </a>
+                    
+                    <a href="/tags/mysql/">
+                        <span class="chip bg-color">mysql</span>
                     </a>
                     
                 </div>
